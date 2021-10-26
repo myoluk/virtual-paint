@@ -1,5 +1,9 @@
 # Virtual Painting via webcam
 
+![stars](https://img.shields.io/github/stars/myoluk/virtual-painting)
+![forks](https://img.shields.io/github/forks/myoluk/virtual-painting)
+![licence](https://img.shields.io/github/license/myoluk/virtual-painting)
+
 This project does virtual painting via webcam with **OpenCV**.
 
 The color range of the object to be tracked with `Identifying-Color-Range.py` is determined by the trackbars.
@@ -16,7 +20,7 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 
 ![Indentify Color Range](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/color-identify.gif)
 
-> After determining the color range, save by pressing the 'S' button. It will save a numpy array as `hsvVal.npy`.
+> After determining the color range, save by pressing the 'S' key. It will save a numpy array as `hsvVal.npy`.
 
 > Press 'Q' to exit.
 
