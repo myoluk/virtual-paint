@@ -52,7 +52,7 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 
 
 
-## Setup
+## How to use?
 1. Run the `Identifying-Color-Range.py` file to set the color range (just make sure the object is detected).
 2. Save the adjusted values by pressing the 'S' key. Values will be saved as `hsvVal.npy` file.
 3. Run the `painting.py` file. It will automatically open the `hsvVal.npy` file.
