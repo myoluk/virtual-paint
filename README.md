@@ -57,4 +57,4 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 2. Save the adjusted values by pressing the 'S' key. Values will be saved as `hsvVal.npy` file.
 3. Run the `painting.py` file. It will automatically open the `hsvVal.npy` file.
 
-Enjoy drawing!
+Enjoy painting!
