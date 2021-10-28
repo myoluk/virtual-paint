@@ -1,10 +1,10 @@
-# Virtual Painting with webcam
+# Virtual Painting using webcam
 
 ![stars](https://img.shields.io/github/stars/myoluk/virtual-painting)
 ![forks](https://img.shields.io/github/forks/myoluk/virtual-painting)
 ![licence](https://img.shields.io/github/license/myoluk/virtual-painting)
 
-This project does virtual painting via webcam with **OpenCV**.
+This project does virtual painting using webcam with **OpenCV**.
 
 The color range of the object to be tracked with `Identifying-Color-Range.py` is determined by the trackbars.
 
@@ -44,7 +44,7 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 
 
 ### Discrete Writing
-> Flip the other side of the tracked object to write discretely. This way the marker will not be detected.
+> There is a small trick. Flip the other side of the tracked object to write discretely. This way the marker will not be detected.
 
 ![Marker Enable/Disable](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/marker-enable-disable.gif)
 
