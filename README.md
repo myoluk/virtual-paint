@@ -1,4 +1,4 @@
-# Virtual Painting via webcam
+# Virtual Painting with webcam
 
 ![stars](https://img.shields.io/github/stars/myoluk/virtual-painting)
 ![forks](https://img.shields.io/github/forks/myoluk/virtual-painting)
