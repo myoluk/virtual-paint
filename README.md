@@ -16,7 +16,7 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 ## Features
 
 ### Identifying Color Range
-> Color range can be adjusted via trackbars.
+> Color range can be adjusted with trackbars.
 
 ![Indentify Color Range](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/color-identify.gif)
 
