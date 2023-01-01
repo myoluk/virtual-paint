@@ -16,7 +16,6 @@ Setting up with HSV is easier than others.
 import cv2
 import numpy as np
 
-
 # 2) Painting with identified object's color
 
 # Load saved file that contain hsv ranges ('hsvVal.npy')
