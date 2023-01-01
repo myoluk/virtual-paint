@@ -16,7 +16,6 @@ Setting up with HSV is easier than others.
 import cv2
 import numpy as np
 
-
 # 1) Identifying object's color
 
 # Show shortcuts information
@@ -101,7 +100,7 @@ while True:
         np.save('hsvVal', hsvValues)
         print("Saved as 'hsvVal.npy'...")
         break
-    
+
 # Release the camera and destroy all windows
 cap.release()
 cv2.destroyAllWindows()
