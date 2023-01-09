@@ -3,6 +3,7 @@
 ![stars](https://img.shields.io/github/stars/myoluk/virtual-painting)
 ![forks](https://img.shields.io/github/forks/myoluk/virtual-painting)
 ![licence](https://img.shields.io/github/license/myoluk/virtual-painting)
+![last-commit](https://img.shields.io/github/last-commit/myoluk/virtual-painting)
 
 This project does virtual painting using webcam with **OpenCV**.
 
