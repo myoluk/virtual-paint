@@ -1,4 +1,4 @@
-# Virtual Painting using webcam
+## Virtual Painting with webcam
 
 ![stars](https://img.shields.io/github/stars/myoluk/virtual-painting)
 ![forks](https://img.shields.io/github/forks/myoluk/virtual-painting)
@@ -14,9 +14,9 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 
 ![Virtual Painting](https://github.com/myoluk/virtual-painting/blob/main/images/color-pick.jpg?raw=true)
 
-## Features
+### Features
 
-### Identifying Color Range
+- #### Identifying Color Range
 > Color range can be adjusted with trackbars.
 
 ![Indentify Color Range](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/color-identify.gif)
@@ -26,34 +26,32 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 > Press 'Q' to exit.
 
 
-### Paint Tools
+- #### Paint Tools
 > 3 thickness options (small, medium, large), 5 color options (purple, blue, green, red, yellow).
 
 ![Paint Tools](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/paint-tools.gif)
 
 
-### Paint
+- #### Paint
 > Draw whatever you want!
 
 ![Paint](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/paint.gif)
 
 
-### Eraser & Clear
+- #### Eraser & Clear
 > **Eraser** for local cleaning, **Clear** for whole page cleaning.
 
 ![Eraser & Clear](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/paint-eraser.gif)
 
 
-### Discrete Writing
+- #### Discrete Writing
 > There is a small trick. Flip the other side of the tracked object to write discretely. This way the marker will not be detected.
 
 ![Marker Enable/Disable](https://raw.githubusercontent.com/myoluk/virtual-painting/main/images/marker-enable-disable.gif)
 
 > Press 'Q' to exit.
 
-
-
-## How to use?
+### How to use?
 1. Run the `Identifying-Color-Range.py` file to set the color range (just make sure the object is detected).
 2. Save the adjusted values by pressing the 'S' key. Values will be saved as `hsvVal.npy` file.
 3. Run the `painting.py` file. It will automatically open the `hsvVal.npy` file.
