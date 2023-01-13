@@ -5,9 +5,9 @@
 ![licence](https://img.shields.io/github/license/myoluk/virtual-painting)
 ![last-commit](https://img.shields.io/github/last-commit/myoluk/virtual-painting)
 
-This project is based on **OpenCV** and allows you to do virtual painting using webcam.
+:star: This project is based on **OpenCV** and allows you to do virtual painting using webcam.
 
-The color range of the object to be tracked with `Identifying-Color-Range.py` is determined by the trackbars.
+:floppy_disk: The color range of the object to be tracked with `Identifying-Color-Range.py` is determined by the trackbars.
 
 `Painting.py` paints by following the specified object. In addition, _3 different marker thicknesses_ can be adjusted, 
 _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can be _erased_ with the **Eraser** and the entire page can be _cleaned_ with **Clear**.
