@@ -9,8 +9,11 @@
 
 :floppy_disk: The color range of the object to be tracked with `set_color_range.py` is determined by the trackbars.
 
-`paint.py` paints by following the specified object. In addition, _3 different marker thicknesses_ can be adjusted, 
-_5 different colors_ (purple, blue, green, red, yellow) can be used, paints can be _erased_ with the **Eraser** and the entire page can be _cleaned_ with **Clear**.
+`paint.py` paints by following the specified object. 
+
+- 3 different marker thicknesses
+- 5 different colors (purple, blue, green, red, yellow)
+- paints can be erased and the entire page can be cleaned
 
 ![Virtual Painting](/images/color-pick.jpg)
 
