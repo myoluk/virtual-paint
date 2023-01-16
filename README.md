@@ -31,7 +31,7 @@
 - ### Set Color Range
 > Color range can be adjusted with trackbars.
 
-![Set Color Range](/images/color-identify.gif)
+![Set Color Range](/images/set-color-range.gif)
 
 > After determining the color range, save by pressing the 'S' key. It will save a numpy array as `hsvVal.npy`.
 
