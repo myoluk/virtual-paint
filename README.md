@@ -7,16 +7,16 @@
 
 :star: This project is based on **OpenCV** and provides virtual painting using webcam.
 
-:floppy_disk: The color range of the object to be tracked with `Identifying-Color-Range.py` is determined by the trackbars.
+:floppy_disk: The color range of the object to be tracked with `set_color_range.py` is determined by the trackbars.
 
-`Painting.py` paints by following the specified object. In addition, _3 different marker thicknesses_ can be adjusted, 
+`paint.py` paints by following the specified object. In addition, _3 different marker thicknesses_ can be adjusted, 
 _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can be _erased_ with the **Eraser** and the entire page can be _cleaned_ with **Clear**.
 
 ![Virtual Painting](/images/color-pick.jpg)
 
 ## Table of Contents
 - [Features](#features)
-  - [Identifying Color Range](#identifying-color-range)
+  - [Identifying Color Range](#set-color-range)
   - [Paint Tools](#paint-tools)
   - [Paint](#paint)
   - [Eraser & Clear](#eraser--clear)
@@ -25,10 +25,10 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 
 ## Features
 
-- ### Identifying Color Range
+- ### Set Color Range
 > Color range can be adjusted with trackbars.
 
-![Indentify Color Range](/images/color-identify.gif)
+![Set Color Range](/images/color-identify.gif)
 
 > After determining the color range, save by pressing the 'S' key. It will save a numpy array as `hsvVal.npy`.
 
@@ -61,8 +61,8 @@ _5 different colors_ (purple, blue, green, red, yellow) can be used, paints can 
 > Press 'Q' to exit.
 
 ## How to use?
-1. Run the `Identifying-Color-Range.py` file to set the color range (just make sure the object is detected).
+1. Run the `set_color_range.py` file to set the color range (just make sure the object is detected).
 2. Save the adjusted values by pressing the 'S' key. Values will be saved as `hsvVal.npy` file.
-3. Run the `painting.py` file. It will automatically open the `hsvVal.npy` file.
+3. Run the `paint.py` file. It will automatically open the `hsvVal.npy` file.
 
 Enjoy painting!
