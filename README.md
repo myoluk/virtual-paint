@@ -9,11 +9,13 @@
 
 :floppy_disk: `color_range.py` allows to enter the color range required to detect the object to be tracked.
 
-:ballot_box_with_check: `paint.py` tracks the specified object and enables painting.
+:pencil2: `paint.py` tracks the specified object and enables painting.
 
-- 3 different marker thicknesses
-- 5 different colors (purple, blue, green, red, yellow)
-- paints can be erased and the entire page can be cleaned
+:ballot_box_with_check: 3 different marker thicknesses
+
+:ballot_box_with_check: 5 different colors (purple, blue, green, red, yellow)
+
+:ballot_box_with_check: paints can be erased and the entire page can be cleaned
 
 ![Virtual Painting](/images/color-pick.jpg)
 
