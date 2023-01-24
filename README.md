@@ -7,9 +7,9 @@
 
 :star: This project is based on **OpenCV** and provides virtual painting using webcam.
 
-:floppy_disk: The color range of the object to be tracked with `set_color_range.py` is determined by the trackbars.
+:floppy_disk: `color_range.py` allows to enter the color range required to detect the object to be tracked.
 
-`paint.py` paints by following the specified object. 
+:ballot_box_with_check: `paint.py` tracks the specified object and enables painting.
 
 - 3 different marker thicknesses
 - 5 different colors (purple, blue, green, red, yellow)
