@@ -31,7 +31,7 @@
 ## Features
 
 - ### Set Color Range
-_Color range can be adjusted with trackbars._
+:white_check_mark: _Color range can be adjusted with trackbars._
 
 ![Set Color Range](/images/set-color-range.gif)
 
@@ -41,25 +41,25 @@ _Press 'Q' to exit._
 
 
 - ### Paint Tools
-_3 thickness options (small, medium, large), 5 color options (purple, blue, green, red, yellow)._
+:white_check_mark: _3 thickness options (small, medium, large), 5 color options (purple, blue, green, red, yellow)._
 
 ![Paint Tools](/images/paint-tools.gif)
 
 
 - ### Paint
-_Draw whatever you want!_
+:white_check_mark: _Draw whatever you want!_
 
 ![Paint](/images/paint.gif)
 
 
 - ### Eraser & Clear
-_**Eraser** for local cleaning, **Clear** for whole page cleaning._
+:white_check_mark: _**Eraser** for local cleaning, **Clear** for whole page cleaning._
 
 ![Eraser & Clear](/images/paint-eraser.gif)
 
 
 - ### Discrete Writing
-_There is a small trick. Flip the other side of the tracked object to write discretely. This way the marker will not be detected._
+:white_check_mark: _There is a small trick. Flip the other side of the tracked object to write discretely. This way the marker will not be detected._
 
 ![Marker Enable/Disable](/images/marker-enable-disable.gif)
 
