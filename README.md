@@ -22,7 +22,7 @@
 ## Table of Contents
 - [Features](#features)
   - [Identifying Color Range](#rocket-set-color-range)
-  - [Paint Tools](#paint-tools)
+  - [Paint Tools](#rocket-paint-tools)
   - [Paint](#paint)
   - [Eraser & Clear](#eraser--clear)
   - [Discrete Writing](#discrete-writing)
