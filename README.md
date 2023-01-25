@@ -21,7 +21,7 @@
 
 ## Table of Contents
 - [Features](#features)
-  - [Identifying Color Range](#rocket-set-color-range)
+  - [Set Color Range](#rocket-set-color-range)
   - [Paint Tools](#rocket-paint-tools)
   - [Paint](#rocket-paint)
   - [Eraser & Clear](#rocket-eraser--clear)
