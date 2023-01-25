@@ -23,7 +23,7 @@
 - [Features](#features)
   - [Identifying Color Range](#rocket-set-color-range)
   - [Paint Tools](#rocket-paint-tools)
-  - [Paint](#paint)
+  - [Paint](#rocket-paint)
   - [Eraser & Clear](#eraser--clear)
   - [Discrete Writing](#discrete-writing)
 - [How to use?](#how-to-use)
