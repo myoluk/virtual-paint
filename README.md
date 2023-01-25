@@ -25,7 +25,7 @@
   - [Paint Tools](#rocket-paint-tools)
   - [Paint](#rocket-paint)
   - [Eraser & Clear](#rocket-eraser--clear)
-  - [Discrete Writing](#discrete-writing)
+  - [Discrete Writing](#rocket-discrete-writing)
 - [How to use?](#how-to-use)
 
 ## Features
