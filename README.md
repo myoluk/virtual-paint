@@ -24,7 +24,7 @@
   - [Identifying Color Range](#rocket-set-color-range)
   - [Paint Tools](#rocket-paint-tools)
   - [Paint](#rocket-paint)
-  - [Eraser & Clear](#eraser--clear)
+  - [Eraser & Clear](#rocket-eraser--clear)
   - [Discrete Writing](#discrete-writing)
 - [How to use?](#how-to-use)
 
