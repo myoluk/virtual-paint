@@ -53,7 +53,7 @@
 
 
 ### :rocket: Eraser & Clear
-:white_check_mark: _**Eraser** for local cleaning, **Clear** for whole page cleaning._
+:white_check_mark: _**Eraser** for area cleaning, **Clear** for whole page cleaning._
 
 ![Eraser & Clear](/images/paint-eraser.gif)
 
