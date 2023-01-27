@@ -35,9 +35,9 @@ minRange = hsvVal[0]
 maxRange = hsvVal[1]
 
 # Initializing the webcam
-cap = cv2.VideoCapture(1)         # 0, 1, 2, ... are used webcam no
-cap.set(3,720)                    # Setting width of camera
-cap.set(4,480)                    # Setting height of camera
+cap = cv2.VideoCapture(1)         # 0, 1, 2, ... webcam port number
+cap.set(3,720)                    # width of camera
+cap.set(4,480)                    # height of camera
 
 # BGR colors to painting
 colorBlue = (255, 134, 58)
@@ -97,7 +97,7 @@ while True:
     if canvas is None:
         canvas = np.zeros(frame.shape, dtype=np.uint8)
     
-    # --------------------------- Top Section ---------------------------
+    # -------------------------- <top-section> --------------------------
     # Put screen cleaner box
     # Uncomment if want to make visible rectange of cleaner
     # cv2.rectangle(frame, (0,0), (100,50), colorScreenCleaner, 0)
@@ -124,7 +124,7 @@ while True:
     cv2.circle(frame, (w-427,30), 7, (0,0,0), -1)
     cv2.rectangle(frame, (w-452,5), (w-502,55), (0,0,0), thicknessSmall)
     cv2.circle(frame, (w-477,30), 3, (0,0,0), -1)
-    # -------------------------------------------------------------------
+    # ------------------------- </top-section> --------------------------
     
     # Create mask with adjusted ranges
     mask = cv2.inRange(hsv, minRange, maxRange)
@@ -275,7 +275,6 @@ while True:
         
         # If object not trackable
         else:
-            
             # Set painting coordinates none to don't paint
             x1 = None
             y1 = None
