@@ -17,6 +17,8 @@
 
 - :ballot_box_with_check: _paints can be erased and the entire page can be cleaned_
 
+- :ballot_box_with_check: _possible to write discrete (with a small trick)_
+
 ![Virtual Painting](/images/color-pick.jpg)
 
 ## Table of Contents
