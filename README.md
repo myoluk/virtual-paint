@@ -11,11 +11,11 @@
 
 :pencil2: `paint.py` tracks the specified object and enables painting.
 
-- :ballot_box_with_check: 3 different marker thicknesses
+- :ballot_box_with_check: _3 different marker thicknesses_
 
-- :ballot_box_with_check: 5 different colors (purple, blue, green, red, yellow)
+- :ballot_box_with_check: _5 different colors (purple, blue, green, red, yellow)_
 
-- :ballot_box_with_check: paints can be erased and the entire page can be cleaned
+- :ballot_box_with_check: _paints can be erased and the entire page can be cleaned_
 
 ![Virtual Painting](/images/color-pick.jpg)
 
