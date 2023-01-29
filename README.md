@@ -19,7 +19,7 @@
 
 - :ballot_box_with_check: _possible to write discrete (with a small trick)_
 
-![Virtual Painting](/images/color-pick.jpg)
+![Virtual Painting](/images/paint.png)
 
 ## Table of Contents
 - [Features](#features)
