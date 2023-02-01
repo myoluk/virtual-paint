@@ -12,7 +12,7 @@ HSV coloring is used to set the color of the object.
 Setting up with HSV is easier than others.
 """
 
-# Libraries to use
+# Libraries
 import cv2
 import numpy as np
 
