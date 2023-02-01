@@ -16,7 +16,7 @@ Setting up with HSV is easier than others.
 import cv2
 import numpy as np
 
-# 1) Identifying object's color
+# 1) Color range of object that be tracked
 
 # Show shortcuts information
 print("\n 1) Identifying object's color\n")
@@ -27,7 +27,7 @@ print("#####################################")
 print("\n")
 
 # Required callback method for trackbars
-def nothing(x):
+def nothing():
     pass
 
 # Initializing the webcam
