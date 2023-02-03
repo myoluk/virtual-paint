@@ -61,7 +61,7 @@
 
 
 ### :rocket: Discrete Writing
-:white_check_mark: _There is a small trick. Flip the other side of the tracked object to write discretely. This way the marker will not be detected._
+:white_check_mark: _There is a small trick. Flip the other side of the tracked object to write discretely._
 
 :white_check_mark: _Press 'Q' to exit._
 
