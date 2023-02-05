@@ -93,7 +93,7 @@ while True:
     if (key == ord('q') or key == ord('Q')):
         break
     
-    #Save adjusted HSV ranges as hsvval.npy if 's' pressed
+    #Save adjusted HSV ranges as hsvval.npy when 's' pressed
     if (key == ord('s') or key == ord('S')):
         hsvValues = [[minH, minS, minV],[maxH, maxS, maxV]]
         print(hsvValues)
