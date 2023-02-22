@@ -13,7 +13,7 @@
 
 ![Virtual Painting](/images/paint.png)
 
-## Table of Contents
+## Contents
 - [Features](#features)
   - [Set Color Range](#rocket-set-color-range)
   - [Paint Tools](#rocket-paint-tools)
