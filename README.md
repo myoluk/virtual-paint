@@ -30,7 +30,7 @@
 
 - [x] _paints can be erased and the entire page can be cleaned_
 
-- [x] _possible to write discrete (with a small trick)_
+- [x] _possible to write discrete (with a little trick)_
 
 ### :rocket: Set Color Range
 :white_check_mark: _Color range can be adjusted with trackbars._
