@@ -71,7 +71,7 @@
 ## How to use?
 :one: Run the `set_color_range.py` file to set the color range (just make sure the object is detected)
 
-:two: Save the adjusted values by pressing the 'S' key. Values will be saved as `hsvVal.npy` file
+:two: Save the adjusted values by pressing the 'S' key, values will be saved as `hsvVal.npy` file
 
 :three: Run the `paint.py` file. It will automatically open the `hsvVal.npy` file
 
