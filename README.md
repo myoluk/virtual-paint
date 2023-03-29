@@ -73,6 +73,6 @@
 
 :two: Save the adjusted values by pressing the 'S' key, values will be saved as `hsvVal.npy` file
 
-:three: Run the `paint.py` file. It will automatically open the `hsvVal.npy` file
+:three: Run the `paint.py` file, it will automatically open the `hsvVal.npy` file
 
 :100: Enjoy painting!
