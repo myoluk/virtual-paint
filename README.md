@@ -33,17 +33,17 @@
 - [x] _possible to write discrete (with a little trick)_
 
 ### :rocket: Set Color Range
-:white_check_mark: _Color range can be adjusted with trackbars._
+:white_check_mark: _Color range can be adjusted with trackbars_
 
-:white_check_mark: _After determining the color range, save by pressing the 'S' key. It will save a numpy array as `hsvVal.npy`._
+:white_check_mark: _After determining the color range, save by pressing the 'S' key, it will save a numpy array as `hsvVal.npy`_
 
-:white_check_mark: _Press 'Q' to exit._
+:white_check_mark: _Press 'Q' to exit_
 
 ![Set Color Range](/images/set-color-range.gif)
 
 
 ### :rocket: Paint Tools
-:white_check_mark: _3 thickness options (small, medium, large), 5 color options (purple, blue, green, red, yellow)._
+:white_check_mark: _3 thickness options (small, medium, large), 5 color options (purple, blue, green, red, yellow)_
 
 ![Paint Tools](/images/paint-tools.gif)
 
@@ -55,15 +55,15 @@
 
 
 ### :rocket: Eraser & Clear
-:white_check_mark: _**Eraser** for area cleaning, **Clear** for whole page cleaning._
+:white_check_mark: _**Eraser** for area cleaning, **Clear** for whole page cleaning_
 
 ![Eraser & Clear](/images/paint-eraser.gif)
 
 
 ### :rocket: Discrete Writing
-:white_check_mark: _There is a little trick. Flip the other side of the tracked object to write discretely._
+:white_check_mark: _There is a little trick, flip the other side of the tracked object to write discretely_
 
-:white_check_mark: _Press 'Q' to exit._
+:white_check_mark: _Press 'Q' to exit_
 
 ![Marker Enable/Disable](/images/marker-enable-disable.gif)
 
