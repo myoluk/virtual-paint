@@ -7,7 +7,7 @@
 
 :star: Based on **OpenCV**
 
-:floppy_disk: `color_range.py` allows to enter the color range required to detect the object to be tracked
+:floppy_disk: `color_range.py` allows to set the color range required to detect the object to be tracked
 
 :pencil2: `paint.py` tracks the specified object and enables painting
 
