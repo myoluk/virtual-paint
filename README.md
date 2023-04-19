@@ -24,7 +24,7 @@
 
 ## Features
 
-- [x] _3 different marker thicknesses_
+- [x] _3 different marker thicknesses (small, medium, large)_
 
 - [x] _5 different colors (🟣purple, 🔵blue, 🟢green, 🔴red, 🟡yellow)_
 
