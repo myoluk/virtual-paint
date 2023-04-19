@@ -26,7 +26,7 @@
 
 - [x] _3 different marker thicknesses_
 
-- [x] _5 different colors (purple, blue, green, red, yellow)_
+- [x] _5 different colors (🟣purple, 🔵blue, 🟢green, 🔴red, 🟡yellow)_
 
 - [x] _paints can be erased and the entire page can be cleaned_
 
