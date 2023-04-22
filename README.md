@@ -9,7 +9,7 @@
 
 :floppy_disk: [`set_color_range.py`](set_color_range.py) allows to set the color range required to detect the object to be tracked
 
-:pencil2: [`paint.py`](paint.py) tracks the object that color set and enables painting
+:pencil2: [`paint.py`](paint.py) tracks the object which color set and enables painting
 
 ![Virtual Painting](/images/paint.png)
 
