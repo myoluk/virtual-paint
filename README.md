@@ -5,13 +5,13 @@
 ![licence](https://img.shields.io/github/license/myoluk/virtual-painting)
 ![last-commit](https://img.shields.io/github/last-commit/myoluk/virtual-painting)
 
+![Virtual Painting](/images/paint.png)
+
 :star: Based on **OpenCV**
 
 :floppy_disk: [`set_color_range.py`](set_color_range.py) allows to set the color range required to detect the object to be tracked
 
 :pencil2: [`paint.py`](paint.py) tracks the object its color was set and enables the painting
-
-![Virtual Painting](/images/paint.png)
 
 ## Contents
 - [Features](#features)
