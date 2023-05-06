@@ -7,11 +7,11 @@
 
 :star: Based on **OpenCV**
 
-![Virtual Painting](/images/paint.png)
-
 :floppy_disk: [`set_color_range.py`](set_color_range.py) allows to set the color range required to detect the object to be tracked
 
 :pencil2: [`paint.py`](paint.py) tracks the object its color was set and enables the painting
+
+![Virtual Painting](/images/paint.png)
 
 ## Contents
 - [Features](#features)
