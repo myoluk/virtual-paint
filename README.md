@@ -24,13 +24,13 @@
 
 ## Features
 
-- [x] _3 different marker thicknesses (small, medium, large)_
+- [x] 3 different marker thicknesses (small, medium, large)
 
-- [x] _5 different colors (🟣purple, 🔵blue, 🟢green, 🔴red, 🟡yellow)_
+- [x] 5 different colors (🟣purple, 🔵blue, 🟢green, 🔴red, 🟡yellow)
 
-- [x] _paints can be erased and the entire page can be cleaned_
+- [x] paints can be erased and the entire page can be cleaned
 
-- [x] _possible to write discrete (with a little trick)_
+- [x] possible to write discrete (with a little trick)
 
 ### :rocket: Set Color Range
 :white_check_mark: _Color range can be adjusted with trackbars_
