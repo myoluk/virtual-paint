@@ -1,78 +1,84 @@
-# Virtual Paint via webcam
+# Virtual Paint
 
-![stars](https://img.shields.io/github/stars/myoluk/virtual-painting)
-![forks](https://img.shields.io/github/forks/myoluk/virtual-painting)
-![licence](https://img.shields.io/github/license/myoluk/virtual-painting)
-![last-commit](https://img.shields.io/github/last-commit/myoluk/virtual-painting)
+A webcam-based virtual painting application. Hold a colored object in front of your camera and use it as a drawing tool on a virtual canvas overlaid on the live feed.
 
-:star: Based on **OpenCV**
+![Preview](docs/preview.jpg)
 
-:floppy_disk: [`set_color_range.py`](set_color_range.py) allows to set the color range required to detect the object to be tracked
+## Requirements
 
-:pencil2: [`paint.py`](paint.py) tracks the object its color was set and enables the painting
+- Python 3.10+
+- Webcam
 
-![Virtual Painting](/images/paint.png)
+## Installation
 
-## Contents
-- [Features](#features)
-  - [Set Color Range](#rocket-set-color-range)
-  - [Paint Tools](#rocket-paint-tools)
-  - [Paint](#rocket-paint)
-  - [Eraser & Clear](#rocket-eraser--clear)
-  - [Discrete Writing](#rocket-discrete-writing)
-- [How to use?](#how-to-use)
+```bash
+python -m venv .venv
+.venv\Scripts\activate        # Windows
+# source .venv/bin/activate   # macOS / Linux
+
+pip install -r requirements.txt
+```
+
+## Running
+
+```bash
+python main.py
+```
+
+## How It Works
+
+1. Launch the app. The camera feed appears on the right panel, the canvas on the left.
+2. Click **Set Tracking Color...** in the status bar and click on your tracking object in the calibration dialog to sample its color.
+3. Adjust tolerance as needed, then save. The app begins tracking the object immediately.
+4. Move the object in front of the camera to draw on the canvas.
 
 ## Features
 
-- [x] 3 different marker thicknesses (small, medium, large)
+- **HSV color tracking** - click-to-sample calibration with tolerance and advanced H/S/V sliders
+- **Virtual toolbar** - semi-transparent overlay at the top of the camera feed; hover a tool for 0.8 s to select it
+- **5 drawing colors** - customizable by re-clicking the active swatch
+- **3 brush sizes** - Small, Medium, Large
+- **Eraser** - fills with the canvas background color
+- **Undo / Redo** - up to 50 steps
+- **Canvas background color** - any color; compositing adapts automatically
+- **Hold Space to pause drawing** - prevents accidental strokes
+- **Detection rectangle** - optional bounding box overlay on the tracked object
+- **Save canvas** - PNG or JPG, timestamped filename by default
+- **Persistent settings** - active color, size, background, and calibration survive restarts
 
-- [x] 5 different colors (🟣purple, 🔵blue, 🟢green, 🔴red, 🟡yellow)
+## Keyboard Shortcuts
 
-- [x] paints can be erased and the entire page can be cleaned
+| Action | Shortcut |
+|---|---|
+| Color 1 - 5 | `1` `2` `3` `4` `5` |
+| Brush Small | `J` |
+| Brush Medium | `K` |
+| Brush Large | `L` |
+| Eraser | `E` |
+| Clear Canvas | `C` `C` |
+| Undo | `Ctrl+Z` |
+| Redo | `Ctrl+Y` |
+| Save | `Ctrl+S` |
+| Pause Drawing | `Space` (hold) |
 
-- [x] possible to write discrete (with a little trick)
+## Project Structure
 
-### :rocket: Set Color Range
-:white_check_mark: _Color range can be adjusted with trackbars_
+```
+virtual-paint/
+├── main.py                     # Entry point
+├── requirements.txt
+└── src/
+    ├── config.py               # Constants, asset paths, color palette
+    ├── camera.py               # Camera open / read / enumerate
+    ├── tracker.py              # HSV detection, tip and bounding rect
+    ├── painter.py              # Canvas drawing, undo/redo, compositing
+    └── ui/
+        ├── main_window.py      # Main window, toolbars, menus, status bar
+        ├── paint_widget.py     # Camera thread, frame pipeline, canvas display
+        ├── virtual_toolbar.py  # In-frame overlay toolbar
+        └── calibration_dialog.py  # HSV calibration dialog
+```
 
-:white_check_mark: _After determining the color range, save by pressing the 'S' key, it will save a numpy array as `hsvVal.npy`_
+## Stack
 
-:white_check_mark: _Press 'Q' to exit_
-
-![Set Color Range](/images/set-color-range.gif)
-
-
-### :rocket: Paint Tools
-:white_check_mark: _3 thickness options (small, medium, large), 5 color options (purple, blue, green, red, yellow)_
-
-![Paint Tools](/images/paint-tools.gif)
-
-
-### :rocket: Paint
-:white_check_mark: _Draw whatever you want!_
-
-![Paint](/images/paint.gif)
-
-
-### :rocket: Eraser & Clear
-:white_check_mark: _**Eraser** for area cleaning, **Clear** for whole page cleaning_
-
-![Eraser & Clear](/images/paint-eraser.gif)
-
-
-### :rocket: Discrete Writing
-:white_check_mark: _There is a little trick, flip the other side of the tracked object to write discretely_
-
-:white_check_mark: _Press 'Q' to exit_
-
-![Marker Enable/Disable](/images/marker-enable-disable.gif)
-
-
-## How to use?
-:one: Run the `set_color_range.py` file to set the color range (just make sure the object is detected)
-
-:two: Save the adjusted values by pressing the 'S' key, values will be saved as `hsvVal.npy` file
-
-:three: Run the `paint.py` file, it will automatically open the `hsvVal.npy` file
-
-:100: Enjoy painting!
+Python - PySide6 - OpenCV - NumPy
